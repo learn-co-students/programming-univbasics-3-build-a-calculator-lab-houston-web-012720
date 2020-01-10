@@ -26,7 +26,7 @@ end
 
 describe "#modulo" do
   it "returns the remainder of two numbers" do
-    expect(modulo(34, 5)).to eq(4)
+    expect(modulo(32.0, 8)).to eq(4)
   end
 end
 
